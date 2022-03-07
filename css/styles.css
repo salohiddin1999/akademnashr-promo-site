@@ -12,6 +12,18 @@ body{
   align-items: center;
 }
 
+.logo-link{
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover{
+  opacity: 0.8;
+}
+
+.logo-link:active{
+opacity: 0.6;
+}
+
 .site-header-actions{
   display: flex;
   align-items: center;
@@ -30,7 +42,17 @@ list-style: none;
   text-transform: uppercase;
   text-decoration: none;
   color: #000;
+  transition: color 0.4s ease,
+  opacity 0.4s ease;
 }
+
+.sitenav-link:hover{
+  color: #ff7500
+}
+.sitenav-link:active{
+  opacity: 0.6;
+}
+
 .main-link{
   font-weight: bold;
   font-size: 13px;
@@ -38,6 +60,15 @@ list-style: none;
   background-color: #ff7500;
   color: #fff;
   text-decoration: none;
+  transition: opacity 0.4s ease;
+}
+
+.main-link:hover{
+  opacity: 0.8;
+}
+
+.main-link:active{
+  opacity: 0.6;
 }
 
 .hero{
@@ -150,7 +181,21 @@ list-style: none;
 
 .site-footer-socials{
   display: flex;
+  align-items: center;
 }
+
+.site-footer-socials a {
+  color: #252420;
+}
+
+.site-footer-socials a:hover{
+  color: #ff7500;
+}
+
+.site-footer-socials a:active{
+  opacity: 0.6;
+}
+
 
 .site-footer ul{
   list-style: none;
@@ -173,4 +218,12 @@ list-style: none;
 .site-footer-links a{
   color: #252420;
   text-decoration: none;
+}
+
+.site-footer-links a:hover{
+  color: #ff7500;
+}
+
+.site-footer-links a:focus{
+opacity: 0.6;
 }
