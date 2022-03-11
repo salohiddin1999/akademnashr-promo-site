@@ -22,6 +22,10 @@ body{
   background-color: #fff;
 }
 
+.logo-link img{
+  display: block;
+}
+
 .logo-link{
   transition: opacity 0.4s ease;
 }
@@ -268,6 +272,7 @@ body{
 }
 
 .site-footer-socials a {
+  display: block;
   color: #252420;
 }
 
@@ -279,6 +284,9 @@ body{
   opacity: 0.6;
 }
 
+.site-footer-socials svg{
+  display: block;
+}
 
 .site-footer ul{
   padding: 0;
